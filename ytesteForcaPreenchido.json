@@ -1,6 +1,7 @@
 
 {
     "id": "urn:Teste:Forca:IdPaciente:Data",
+    "tipo":"forca",
     "idPaciente":"idPaciente",
     "idHospital":"idHospital",
     "idMedico":"idMedico",
