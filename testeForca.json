@@ -1,0 +1,187 @@
+
+{
+    "id": "urn:Teste:Modelo:Forca:",
+    "info": "Avaliação de Força Muscular Periférica (FMP) pelo Medical Research Council (MRC). Visa avaliar força muscular verificar a efetividade de procedimentos determinar fase funcional definir metas de tratamento e posicionamento no leito.",
+    "sugestao": "avaliar e reavaliar após o atendimento",
+    "procedimento":"",
+    "complemento": "O score médio ajusta o resultado para a escala das alternativas do teste para facilitar sua interpretação",
+    "secoesQuestionario":[
+    {
+            "descricao": "Membros Superiores",
+            "questoes":[
+                {
+                "descricao":"Abdução de ombro esquerdo (0° - 180°)",
+                "alternativas": 
+                        [
+                         { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                         { "desc": "força nor", "peso": 5,"valor": false}
+                        ]
+                },
+                {
+                    "descricao":"Abdução de ombro direito (0° - 180°)",
+                    "alternativas": 
+                            [
+                             { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                             { "desc": "força nor", "peso": 5,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Flexão de cotovelo esquerdo (0° - 145°)",
+                    "alternativas": 
+                            [
+                             { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                             { "desc": "força nor", "peso": 5,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Flexão de cotovelo direito (0° - 145°)",
+                    "alternativas": 
+                            [
+                             { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                             { "desc": "força nor", "peso": 5,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Extensão de punho esquerdo (0° - 70°)",
+                    "alternativas": 
+                            [
+                             { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                             { "desc": "força nor", "peso": 5,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Extensão de punho direito (0° - 70°)",
+                    "alternativas": 
+                            [
+                             { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                             { "desc": "força nor", "peso": 5,"valor": false}
+                            ]
+                }
+            ]
+    },
+    {
+        "descricao": "MEMBROS INFERIORES",
+        "questoes":[
+            {
+            "descricao":"Flexão de quadril esquerdo (0° - 125°)",
+            "alternativas": 
+                    [
+                     { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                     { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                     { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                     { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                     { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                     { "desc": "força nor", "peso": 5,"valor": false}
+                    ]
+            },
+            {
+                "descricao":"Flexão de quadril direito (0° - 125°))",
+                "alternativas": 
+                        [
+                         { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                         { "desc": "força nor", "peso": 5,"valor": false}
+                        ]
+            },
+            {
+                "descricao":"Extensão de joelho esquerdo (140° - 0°)",
+                "alternativas": 
+                        [
+                         { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                         { "desc": "força nor", "peso": 5,"valor": false}
+                        ]
+            },
+            {
+                "descricao":"Extensão de joelho direito (140° - 0°)",
+                "alternativas": 
+                        [
+                         { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                         { "desc": "força nor", "peso": 5,"valor": false}
+                        ]
+            },
+            {
+                "descricao":"Dorsiflexão de tornozelo esquerdo (0° - 20°)",
+                "alternativas": 
+                        [
+                         { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                         { "desc": "força nor", "peso": 5,"valor": false}
+                        ]
+            },
+            {
+                "descricao":"Dorsiflexão de tornozelo direito (0° - 20°)",
+                "alternativas": 
+                        [
+                         { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
+                         { "desc": "força nor", "peso": 5,"valor": false}
+                        ]
+            }
+        ]
+
+    }
+    ]
+
+    ,
+    "respostas":[
+        {
+        "MRC60_MSE": 0,
+        "MRC60_MIE" : 0,
+        "MRC60_HE" : 0,
+        "MRC60_MSD" : 0,
+        "MRC60_MID" : 0,
+        "MRC60_HD" : 0,
+        "MRC60" : 0,
+        "MRC5_MSE" : 0,
+        "MRC5_MIE" : 0,
+        "MRC5_HE" : 0,
+        "MRC5_MSD" : 0,
+        "MRC5_MID" : 0,
+        "MRC5_HD" : 0,
+        "MRC5" : 0
+        }
+    ]
+}
+
+   

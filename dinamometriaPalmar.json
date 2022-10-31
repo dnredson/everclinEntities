@@ -1,0 +1,101 @@
+
+
+
+{
+    
+    "id": "urn:Teste:Modelo:DinamometriaPalmar",
+    "info": "Avaliar a funcionalidade do paciente, a efetividade de procedimentos e diagnóstico de sarcopenia. Sugestão de aplicação: avaliar e reavaliar após o 6º atendimento para avaliar o ganho de força",
+    "procedimento": "O braço dominante deve ser suspenso no ar com a mão posicionada no dinamômetro sustentado pelo avaliador. Paciente sentado com a coluna ereta, mantendo o ombro posicionado em adução e rotação neutra, cotovelo flexionado a 90° em meio pronação e punho neutro podendo movimentá-lo até 30° de extensão. Realizar 5 medições com intervalos de 1 min.",
+    "sugestao":"",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Força de contração (kgf)",
+            "questoes":[
+                {
+                "descricao":"Medida 1",
+                "alternativas": 
+                        [
+                         { "desc": "3 segundos", "peso": 3,"valor": false},
+                         { "desc": "4 segundos", "peso": 4,"valor": false},
+                         { "desc": "5 segundos", "peso": 5,"valor": false},
+                         { "desc": "6 segundos", "peso": 6,"valor": false},
+                         { "desc": "7 segundos", "peso": 7,"valor": false},
+                         { "desc": "8 segundos", "peso": 8,"valor": false},
+                         { "desc": "9 segundos", "peso": 9,"valor": false},
+                         { "desc": "10 segundos", "peso": 10,"valor": false}
+                         
+                        ]
+                },
+                {
+                    "descricao":"Medida 2",
+                    "alternativas": 
+                            [
+                                { "desc": "3 segundos", "peso": 3,"valor": false},
+                                { "desc": "4 segundos", "peso": 4,"valor": false},
+                                { "desc": "5 segundos", "peso": 5,"valor": false},
+                                { "desc": "6 segundos", "peso": 6,"valor": false},
+                                { "desc": "7 segundos", "peso": 7,"valor": false},
+                                { "desc": "8 segundos", "peso": 8,"valor": false},
+                                { "desc": "9 segundos", "peso": 9,"valor": false},
+                                { "desc": "10 segundos", "peso": 10,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Medida 3",
+                    "alternativas": 
+                            [
+                                { "desc": "3 segundos", "peso": 3,"valor": false},
+                                { "desc": "4 segundos", "peso": 4,"valor": false},
+                                { "desc": "5 segundos", "peso": 5,"valor": false},
+                                { "desc": "6 segundos", "peso": 6,"valor": false},
+                                { "desc": "7 segundos", "peso": 7,"valor": false},
+                                { "desc": "8 segundos", "peso": 8,"valor": false},
+                                { "desc": "9 segundos", "peso": 9,"valor": false},
+                                { "desc": "10 segundos", "peso": 10,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Medida 4",
+                    "alternativas": 
+                            [
+                                { "desc": "3 segundos", "peso": 3,"valor": false},
+                                { "desc": "4 segundos", "peso": 4,"valor": false},
+                                { "desc": "5 segundos", "peso": 5,"valor": false},
+                                { "desc": "6 segundos", "peso": 6,"valor": false},
+                                { "desc": "7 segundos", "peso": 7,"valor": false},
+                                { "desc": "8 segundos", "peso": 8,"valor": false},
+                                { "desc": "9 segundos", "peso": 9,"valor": false},
+                                { "desc": "10 segundos", "peso": 10,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Medida 5",
+                    "alternativas": 
+                            [
+                                { "desc": "3 segundos", "peso": 3,"valor": false},
+                                { "desc": "4 segundos", "peso": 4,"valor": false},
+                                { "desc": "5 segundos", "peso": 5,"valor": false},
+                                { "desc": "6 segundos", "peso": 6,"valor": false},
+                                { "desc": "7 segundos", "peso": 7,"valor": false},
+                                { "desc": "8 segundos", "peso": 8,"valor": false},
+                                { "desc": "9 segundos", "peso": 9,"valor": false},
+                                { "desc": "10 segundos", "peso": 10,"valor": false}
+                            ]
+                }
+            ]
+    }
+   
+    ],
+    "respostas":[
+        {
+        "R": 0,
+        "situacao": "",
+        "sarcopenia":false
+
+        
+        }
+    ]
+}
+
+   
