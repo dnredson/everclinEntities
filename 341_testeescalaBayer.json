@@ -1,0 +1,247 @@
+{
+    "id": "urn:Teste:Modelo:escalaBayer",
+    "info": "Avalia déficits funcionais em pacientes com comprometimento cognitivo e social que interfere nas funções diárias. Quantifica esse comprometimento em diferentes contextos funcionais em pacientes com diagnóstico de demência",
+    "procedimento":"Para cada atividade, escolher uma gradação.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Autocuidado",
+            "questoes":[
+                {
+                    "descricao":"Ao vestir-se",
+                    "alternativas": 
+                            [
+                                { "desc": "Nenhum problema", "peso": 0,"valor": false},
+                                { "desc": "Independente, porém de forma lenta ou desajeitada", "peso": 1,"valor": false},
+                                { "desc": "Sequência errada, com o esquecimento de itens", "peso": 2,"valor": false},
+                                { "desc": "Precisa de ajuda para se vestir", "peso": 3,"valor": false},
+                                { "desc": "Não sei", "peso": -1,"valor": false} 
+                            ]
+                    },
+                    {
+                        "descricao":"No banho",
+                        "alternativas": 
+                                [
+                                    { "desc": "Nenhum problema", "peso": 0,"valor": false},
+                                    { "desc": "Toma banho sozinho, mas precisa ser lembrado", "peso": 1,"valor": false},
+                                    { "desc": "Toma banho com ajuda", "peso": 2,"valor": false},
+                                    { "desc": "O banho deve ser dado por outras pessoas", "peso": 3,"valor": false},
+                                    { "desc": "Não sei", "peso": -1,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Necessidades fisiológicas",
+                        "alternativas": 
+                                [
+                                    { "desc": "Vai ao banheiro sozinho", "peso": 0,"valor": false},
+                                    { "desc": "Vai ao banheiro quando é lembrado", "peso": 1,"valor": false},
+                                    { "desc": "Precisa de ajuda ao fazer suas necessidades fisiológicas", "peso": 2,"valor": false},
+                                    { "desc": "Não possui nenhum controle sobre suas necessidades fisiológicas", "peso": 3,"valor": false},
+                                    { "desc": "Não sei", "peso": -1,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Preocupação com a aparência pessoal",
+                        "alternativas": 
+                                [
+                                    { "desc": "A mesma de sempre", "peso": 0,"valor": false},
+                                    { "desc": "Preocupa-se somente ao sair", "peso": 1,"valor": false},
+                                    { "desc": "Deixa que outros lhe arrumem ou faz o mesmo se for solicitado", "peso": 2,"valor": false},
+                                    { "desc": "Resiste aos esforços do responsável ao tentar limpá-lo e arrumá-lo", "peso": 3,"valor": false},
+                                    { "desc": "Não sei", "peso": -1,"valor": false}
+                                ]
+                        }                                        
+            ]
+    },
+    {
+        "descricao": "Interação",
+        "questoes":[
+            {
+                    "descricao":"Ao se locomover pela vizinhança",
+                    "alternativas": 
+                            [
+                                { "desc": "O mesmo de sempre", "peso": 0,"valor": false},
+                                { "desc": "Sai com menos frequência", "peso": 1,"valor": false},
+                                { "desc": "Já se perdeu perto de casa", "peso": 2,"valor": false},
+                                { "desc": "Não sai mais desacompanhado", "peso": 3,"valor": false},
+                                { "desc": "Esta atividade foi restrita no passado OU Não sei", "peso": -1,"valor": false} 
+                            ]
+                },
+                {
+                    "descricao":"Compreensão",
+                    "alternativas": 
+                            [
+                                { "desc": "Entende tudo que é dito, como sempre", "peso": 0,"valor": false},
+                                { "desc": "Pede para repetir", "peso": 1,"valor": false},
+                                { "desc": "Ocasionalmente, apresenta dificuldades para entender conversações ou palavras específicas", "peso": 2,"valor": false},
+                                { "desc": "Não entende o que as pessoas estão dizendo, na maior parte do tempo", "peso": 3,"valor": false},
+                                { "desc": "Não sei", "peso": -1,"valor": false} 
+                            ]
+                    }, 
+                {
+                    "descricao":"Compreensão",
+                    "alternativas": 
+                            [
+                                { "desc": "Entende tudo que é dito, como sempre", "peso": 0,"valor": false},
+                                { "desc": "Pede para repetir", "peso": 1,"valor": false},
+                                { "desc": "Ocasionalmente, apresenta dificuldades para entender conversações ou palavras específicas", "peso": 2,"valor": false},
+                                { "desc": "Não entende o que as pessoas estão dizendo, na maior parte do tempo", "peso": 3,"valor": false},
+                                { "desc": "Não sei", "peso": -1,"valor": false} 
+                            ]
+                    },
+                {
+                    "descricao":"Ao conversar",
+                    "alternativas": 
+                            [
+                                { "desc": "O mesmo de sempre", "peso": 0,"valor": false},
+                                { "desc": "Conversa menos; apresenta dificuldades para lembrar de palavras ou nomes", "peso": 1,"valor": false},
+                                { "desc": "Ocasionalmente, ao falar, comete erros", "peso": 2,"valor": false},
+                                { "desc": "Sua fala é quase incompreensível", "peso": 3,"valor": false},
+                                { "desc": "Não sei", "peso": -1,"valor": false} 
+                            ]
+                    }   
+            ]
+}, 
+{
+    "descricao": "Atividade intelectiva",
+    "questoes":[
+        {
+                    "descricao":"Ao ler",
+                    "alternativas": 
+                            [
+                                { "desc": "O mesmo de sempre", "peso": 0,"valor": false},
+                                { "desc": "Lê menos frequentemente", "peso": 1,"valor": false},
+                                { "desc": "Apresenta dificuldades para entender ou lembrar o que leu", "peso": 2,"valor": false},
+                                { "desc": "Não lê mais", "peso": 3,"valor": false},
+                                { "desc": "Nunca leu OU Não sei", "peso": -1,"valor": false} 
+                            ]
+                     },
+                {
+                    "descricao":"Ao escrever",
+                    "alternativas": 
+                            [
+                                { "desc": "O mesmo de sempre", "peso": 0,"valor": false},
+                                { "desc": "Escreve com menos frequência; ou comete alguns erros", "peso": 1,"valor": false},
+                                { "desc": "Apenas assina seu nome", "peso": 2,"valor": false},
+                                { "desc": "Nunca escreve", "peso": 3,"valor": false},
+                                { "desc": "Nunca escreveu OU não sei", "peso": -1,"valor": false}
+                            ]
+                }
+            ]
+}, 
+{
+    "descricao": "Organização e planejamento",
+    "questoes":[
+        {
+                    "descricao":"Ao viajar para lugares desconhecidos",
+                    "alternativas": 
+                            [
+                                { "desc": "O mesmo de sempre", "peso": 0,"valor": false},
+                                { "desc": "Ocasionalmente fica desorientado em ambientes desconhecidos", "peso": 1,"valor": false},
+                                { "desc": "Fica muito desorientado, mas enfrenta a situação, se acompanhado", "peso": 2,"valor": false},
+                                { "desc": "Não consegue mais viajar", "peso": 3,"valor": false},
+                                { "desc": "Nunca praticou esta atividade OU Não sei", "peso": -1,"valor": false} 
+                            ]
+                     },
+                {
+                    "descricao":"Ao administrar as finanças",
+                    "alternativas": 
+                            [
+                                { "desc": "Nenhum problema em pagar contas e ir ao banco", "peso": 0,"valor": false},
+                                { "desc": "Paga as contas com atraso, apresenta dificuldades no preenchimento de cheques", "peso": 1,"valor": false},
+                                { "desc": "Esquece de pagar contas; dificuldades ao administrar a conta bancária; precisa da ajuda de outros", "peso": 2,"valor": false},
+                                { "desc": "Não mais administra as finanças", "peso": 3,"valor": false},
+                                { "desc": "Nunca foi responsável por esta atividade OU Não sei", "peso": -1,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Ao usar o telefone",
+                    "alternativas": 
+                            [
+                                { "desc": "O mesmo de sempre", "peso": 0,"valor": false},
+                                { "desc": "Liga para alguns números de telefones conhecidos", "peso": 1,"valor": false},
+                                { "desc": "Apenas atende o telefone (não faz ligações)", "peso": 2,"valor": false},
+                                { "desc": "Não faz uso do telefone", "peso": 3,"valor": false},
+                                { "desc": "Nunca teve telefone OU Não sei", "peso": -1,"valor": false}
+                            ]
+                }
+            ]
+}, 
+{
+    "descricao": "Participação social",
+    "questoes":[
+        {
+                    "descricao":"Participação em grupos",
+                    "alternativas": 
+                            [
+                                { "desc": "Comparece às reuniões e assume responsabilidades de forma usual", "peso": 0,"valor": false},
+                                { "desc": "Comparece às reuniões com menos frequência", "peso": 1,"valor": false},
+                                { "desc": "Comparece ocasionalmente; não tem nenhuma responsabilidade importante", "peso": 2,"valor": false},
+                                { "desc": "Não comparece mais", "peso": 3,"valor": false},
+                                { "desc": "Nunca participou de grupos OU Não sei", "peso": -1,"valor": false} 
+                            ]
+                     },
+                {
+                    "descricao":"Ao manusear dinheiro",
+                    "alternativas": 
+                            [
+                                { "desc": "Nenhum problema", "peso": 0,"valor": false},
+                                { "desc": "Dificuldade em pagar a quantia certa e em contar dinheiro", "peso": 1,"valor": false},
+                                { "desc": "Perde ou esquece onde coloca o dinheiro", "peso": 2,"valor": false},
+                                { "desc": "Não mais manuseia dinheiro", "peso": 3,"valor": false},
+                                { "desc": "Nunca foi responsável por esta atividade OU Não sei", "peso": -1,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Ao fazer compras",
+                    "alternativas": 
+                            [
+                                { "desc": "Nenhum problema", "peso": 0,"valor": false},
+                                { "desc": "Esquece de comprar itens ou compra itens não necessários", "peso": 1,"valor": false},
+                                { "desc": "Precisa estar acompanhado ao fazer compras", "peso": 2,"valor": false},
+                                { "desc": "Não mais realiza esta atividade", "peso": 3,"valor": false},
+                                { "desc": "Nunca foi responsável por esta atividade OU Não sei", "peso": -1,"valor": false}
+                            ]
+                }
+    ]
+}, 
+{
+    "descricao": "Alimentação",
+    "questoes":[
+        {
+                    "descricao":"Ao comer",
+                    "alternativas": 
+                            [
+                                { "desc": "Nenhum problema", "peso": 0,"valor": false},
+                                { "desc": "Independente, porém de forma lenta ou com alguns derramamentos", "peso": 1,"valor": false},
+                                { "desc": "Necessita de ajuda para cortar ou despejar líquidos; derrama frequentemente", "peso": 2,"valor": false},
+                                { "desc": "Com a maioria dos alimentos, não consegue se alimentar sozinho", "peso": 3,"valor": false},
+                                { "desc": "Não sei", "peso": -1,"valor": false} 
+                            ]
+                     },
+                {
+                    "descricao":"Ao tomar comprimidos ou remédios",
+                    "alternativas": 
+                            [
+                                { "desc": "Lembra sem ajuda", "peso": 0,"valor": false},
+                                { "desc": "Lembra, se sempre for guardado num lugar específico", "peso": 1,"valor": false},
+                                { "desc": "Precisa de lembretes orais ou escritos", "peso": 2,"valor": false},
+                                { "desc": "Os remédios devem ser administrados por outros", "peso": 3,"valor": false},
+                                { "desc": "Não toma comprimidos ou remédios de forma regular OU Não sei", "peso": -1,"valor": false}
+                            ]
+                }
+            ]
+}
+
+
+
+],
+    "respostas":[
+        {
+            "MAX": 0,
+            "PT": 0, 
+            "R": 0
+        }
+    ]
+}

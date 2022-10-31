@@ -1,0 +1,87 @@
+{
+    "id": "urn:Teste:Modelo:IPAQcurta",
+    "info": "",
+    "procedimento":"",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Caminhada",
+            "questoes":[
+                {
+                    "descricao":"Em quantos dias da última semana você CAMINHOU por pelo menos 10 min contínuos em casa ou no trabalho, como forma de transporte para ir de um lugar para outro, por lazer, por prazer ou como forma de exercício?",
+                    "alternativas": 
+                            [
+                                { "desc": "diasCaminhada", "peso": 0,"valor": 0}
+                            ]
+                    },
+                    {
+                        "descricao":"Nos dias em que você caminhou por pelo menos 10 min contínuos, quantos min no total você gastou caminhando por dia?",
+                        "alternativas": 
+                                [
+                                    { "desc": "minCaminhada", "peso": 0,"valor": 0} 
+                                ]
+                        },
+                    {
+                        "descricao":"Em quantos dias da última semana você realizou atividades MODERADAS por pelo menos 10 min contínuos, como pedalar leve na bicicleta, nadar, dançar, fazer ginástica aeróbica leve, jogar vôlei recreativo, carregar pesos leves, fazer serviços domésticos na casa, no quintal ou no jardim como varrer, aspirar ou qualquer atividade que fez aumentar moderadamente sua respiração ou batimentos do coração",
+                        "alternativas": 
+                                [
+                                    { "desc": "diasAtividadesModeradas", "peso": 0,"valor": 0}     
+                                ]
+                        },
+                    {
+                        "descricao":"Nos dias em que você fez essas atividades moderadas por pelo menos 10 min contínuos, quantos min no total você gastou fazendo essas atividades por dia?",
+                        "alternativas": 
+                                [
+                                    { "desc": "minAtividadesModeradas", "peso": 0,"valor": 0}
+                                ]
+                        }                                                      
+            ]
+    },
+    {
+        "descricao": "Atividades vigorosas",
+        "questoes":[
+            {
+                    "descricao":"Em quantos dias da última semana, você realizou atividades VIGOROSAS por pelo menos 10 min contínuos, como por exemplo correr, fazer ginástica aeróbica, jogar futebol, pedalar rápido na bicicleta, jogar basquete, fazer serviços domésticos pesados em casa, no quintal ou no jardim, carregar pesos elevados ou qualquer atividade que fez aumentar MUITO sua respiração ou batimentos do coração",
+                    "alternativas": 
+                            [
+                                { "desc": "diasAtividadeVigorosa", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Nos dias em que você fez essas atividades vigorosas por pelo menos 10 min contínuos, quantos min no total você gastou fazendo essas atividades por dia?",
+                    "alternativas": 
+                            [
+                                { "desc": "minAtividadeVigorosa", "peso": 0,"valor": 0}
+                            ]
+                    } 
+            ]
+}, 
+{
+    "descricao": "Sedentarismo",
+    "questoes":[
+        {
+                    "descricao":"Quanto tempo no total você gasta sentado durante um dia útil (estudando, trabalhando, descansando, visitando um amigo, lendo, assistindo TV) ? Não inclui o tempo no transporte em ônibus, metrô, carro etc.",
+                    "alternativas": 
+                            [
+                                { "desc": "minSentadoDiaUtil", "peso": 0,"valor": 0}
+                            ]
+                     },
+                {
+                    "descricao":"Quanto tempo no total você gasta sentado em um dia de final de semana (estudando, trabalhando, descansando, visitando um amigo, lendo, assistindo TV) ? Não inclui o tempo no transporte em ônibus, metrô, carro etc.",
+                    "alternativas": 
+                            [
+                                { "desc": "minSentadoFimSemana", "peso": 0,"valor": 0}
+                            ]
+                    }             
+            ]
+} 
+
+
+],
+    "respostas":[
+        {
+
+        }
+    ]
+}

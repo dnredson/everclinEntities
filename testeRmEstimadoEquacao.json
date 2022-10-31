@@ -1,0 +1,123 @@
+
+{
+    "id": "urn:Teste:Modelo:RmEstimadoEquacao",
+    "info": "Estimar a carga máxima que um indivíduo pode suportar através de cargas submáximas. Sugestão de aplicação: avaliar e reavaliar após o 6º atendimento.",
+    "procedimento":"Para cada movimento, anotar a carga escolhida e o número de repetições realizadas pelo paciente.",
+    "sugestao": "O braço dominante deve ser suspenso no ar com a mão posicionada no dinamômetro sustentado pelo avaliador. Paciente sentado com a coluna ereta, mantendo o ombro posicionado em adução e rotação neutra, cotovelo flexionado a 90° em meio pronação e punho neutro podendo movimentá-lo até 30° de extensão. Realizar 5 medições com intervalos de 1 min.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Número de Repetições",
+            "questoes":[
+                {
+                "descricao":"Abdução de ombro direito",
+                "alternativas": 
+                        [
+                         { "desc": "Carga", "peso": 0,"valor": 0},
+                         { "desc": "Repetições", "peso": 0,"valor": 0}
+                         
+                         
+                        ]
+                },
+                {
+                    "descricao":"Abdução de ombro esquerdo",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Flexão de cotovelo direito",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                         { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Flexão de cotovelo esquerdo",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Extensão de punho direito",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Extensão de punho esquerdo",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Flexão de quadril direito",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Flexão de quadril esquerdo",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Extensão de joelho direito",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Extensão de joelho esquerdo",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Dorsiflexão de tornozelo direito",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                },
+                {
+                    "descricao":"Dorsiflexão de tornozelo esquerdo",
+                    "alternativas": 
+                            [
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
+                            ]
+                }
+            ]
+    }
+   
+    ],
+    "respostas":[
+        {
+       "duvida":"Tirar duvida sobre as respostas. Marcado no PDF"
+
+        
+        }
+    ]
+}
+
+   

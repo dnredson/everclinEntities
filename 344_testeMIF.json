@@ -1,0 +1,282 @@
+{
+    "id": "urn:Teste:Modelo:MIF",
+    "info": "Avaliar a capacidade funcional de se autocuidar e monitorar a capacidade funcional, incorporando avaliação cognitiva.",
+    "procedimento":"Para cada atividade, escolher uma gradação.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "O score normalizado ajusta o resultado para a escala das alternativas do teste para facilitar sua interpretação.",
+    "secoesQuestionario":[
+    {
+            "descricao": "Autocuidado",
+            "questoes":[
+                {
+                    "descricao":"Alimentação",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+ 
+                            ]
+                    },
+                    {
+                        "descricao":"Higiene pessoal",
+                        "alternativas": 
+                                [
+                                    { "desc": "Independência completa", "peso": 7,"valor": false},
+                                    { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                    { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                    { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                    { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                    { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                    { "desc": "Ajuda total", "peso": 1,"valor": false}     
+                                ]
+                        },
+                    {
+                        "descricao":"Banho (lavar o corpo)",
+                        "alternativas": 
+                                [
+                                    { "desc": "Independência completa", "peso": 7,"valor": false},
+                                    { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                    { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                    { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                    { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                    { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                    { "desc": "Ajuda total", "peso": 1,"valor": false}      
+                                ]
+                        },
+                    {
+                        "descricao":"Vestir metade superior",
+                        "alternativas": 
+                                [
+                                    { "desc": "Independência completa", "peso": 7,"valor": false},
+                                    { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                    { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                    { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                    { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                    { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                    { "desc": "Ajuda total", "peso": 1,"valor": false}      
+                                ]
+                        }, 
+                    {
+                        "descricao":"Vestir metade inferior",
+                        "alternativas": 
+                                [
+                                    { "desc": "Independência completa", "peso": 7,"valor": false},
+                                    { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                    { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                    { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                    { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                    { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                    { "desc": "Ajuda total", "peso": 1,"valor": false}      
+                                ]
+                        },
+                    {
+                        "descricao":"Higiene íntima",
+                        "alternativas": 
+                                [
+                                    { "desc": "Independência completa", "peso": 7,"valor": false},
+                                    { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                    { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                    { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                    { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                    { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                    { "desc": "Ajuda total", "peso": 1,"valor": false}      
+                                ]
+                        }                                                             
+            ]
+    },
+    {
+        "descricao": "Controle de esfíncteres",
+        "questoes":[
+            {
+                    "descricao":"Controle da urina",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                },
+                {
+                    "descricao":"Controle das fezes",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                    } 
+            ]
+}, 
+{
+    "descricao": "Mobilidade (transferências):",
+    "questoes":[
+        {
+                    "descricao":"Leito, cadeira, cadeira de rodas",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                     },
+                {
+                    "descricao":"Vaso sanitário",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                    }, 
+                {
+                    "descricao":"Banheira, chuveiro",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                    }
+            
+            ]
+}, 
+{
+    "descricao": "Locomoção",
+    "questoes":[
+        {
+                    "descricao":"Marcha/cadeira de rodas",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                     },
+                {
+                    "descricao":"Escadas",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                }
+            ]
+}, 
+{
+    "descricao": "Comunicação",
+    "questoes":[
+        {
+                    "descricao":"Compreensão",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                     },
+                {
+                    "descricao":"Expressão",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                }
+    ]
+}, 
+{
+    "descricao": "Cognição social",
+    "questoes":[
+        {
+                    "descricao":"Interação social",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                     },
+                {
+                    "descricao":"Resolução de problemas",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                    }, 
+                {
+                    "descricao":"Memória observações",
+                    "alternativas": 
+                            [
+                                { "desc": "Independência completa", "peso": 7,"valor": false},
+                                { "desc": "Independência modificada (ajuda técnica, adaptação, prótese, tempo elevado ou baixa segurança)", "peso": 6,"valor": false},
+                                { "desc": "Supervisão (encorajamento ou preparação, sem contato físico", "peso": 5,"valor": false},
+                                { "desc": "Ajuda mínima (contato “tátil”, pessoa realiza esforço > 75%)", "peso": 4,"valor": false},
+                                { "desc": "Ajuda moderada (pessoa requer mais que contato leve, pessoa realiza esforço > 50%)", "peso": 3,"valor": false},
+                                { "desc": "Ajuda máxima (pessoa ainda realiza algum esforço > 25%)", "peso": 2,"valor": false},
+                                { "desc": "Ajuda total", "peso": 1,"valor": false}  
+                            ]
+                }
+            ]
+}
+
+],
+    "respostas":[
+        {
+
+            "R": 0
+        }
+    ]
+}

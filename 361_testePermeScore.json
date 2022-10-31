@@ -1,0 +1,206 @@
+{
+    "id": "urn:Teste:Modelo:permeScore",
+    "info": "Avaliar a mobilidade e identificar barreiras para progressão em determinado momento, não se limitando à gravidade da doença",
+    "procedimento":"Para cada atividade, escolher uma gradação.",
+    "sugestao": "de acordo com a necessidade de avaliação funcional do paciente, podendo ser de uso diário até a alta.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Estado mental",
+            "questoes":[
+                {
+                    "descricao":"Estado de alerta no contato inicial",
+                    "alternativas": 
+                            [
+                                { "desc": "Não responsivo", "peso": 0,"valor": false},
+                                { "desc": "Letárgico", "peso": 1,"valor": false},
+                                { "desc": "Acordado e alerta", "peso": 2,"valor": false}
+                            ]
+                    },
+                    {
+                        "descricao":"Consegue seguir 2 entre 3 comandos?",
+                        "alternativas": 
+                                [
+                                    { "desc": "Não", "peso": 0,"valor": false},
+                                    { "desc": "Sim", "peso": 1,"valor": false}
+                                ]
+                        }                                                    
+            ]
+    },
+    {
+        "descricao": "Potenciais barreiras à mobilidade",
+        "questoes":[
+            {
+                    "descricao":"Está em Ventilação Mecânica OU Ventilação Não-Invasiva?",
+                    "alternativas": 
+                            [
+                                { "desc": "Sim", "peso": 0,"valor": false},
+                                { "desc": "Não", "peso": 1,"valor": false}
+                            ]
+                },
+                {
+                    "descricao":"Dor",
+                    "alternativas": 
+                            [
+                                { "desc": "Indica sentir dor ou não é possível determinar se sente dor", "peso": 0,"valor": false},
+                                { "desc": "Sem dor", "peso": 1,"valor": false}
+                            ]
+                    },
+                {
+                    "descricao":"Apresenta 2 ou mais acessos, tubos, cateteres ou dispositivos conectados ao corpo, mesmo que não estejam em uso (por exemplo: cateter de diálise quando o paciente não está dialisando)",
+                    "alternativas": 
+                            [
+                                { "desc": "Sim", "peso": 0,"valor": false},
+                                { "desc": "Não", "peso": 1,"valor": false}
+                            ]
+                    },
+                {
+                    "descricao":"Está com infusão endovenosa? (vasopressores, inotrópicos, insulina, antiarrítmicos, sedação, antibióticos, fluidos, reposição de eletrólitos, transfusão de sangue)",
+                    "alternativas": 
+                            [
+                                { "desc": "Sim", "peso": 0,"valor": false},
+                                { "desc": "Não", "peso": 1,"valor": false}
+                            ]
+                    }    
+            ]
+}, 
+{
+    "descricao": "Força funcional",
+    "questoes":[
+        {
+                    "descricao":"Perna direita (Posição: joelho direito estendido contra gravidade. Realizar aprox. 20 graus de flexão de quadril)",
+                    "alternativas": 
+                            [
+                                { "desc": "Não consegue", "peso": 0,"valor": false},
+                                { "desc": "Consegue", "peso": 1,"valor": false}
+                            ]
+                     },
+                {
+                    "descricao":"Perna esquerda (Posição: joelho esquerdo estendido contra gravidade. Realizar aprox. 20 graus de flexão de quadril)",
+                    "alternativas": 
+                            [
+                                { "desc": "Não consegue", "peso": 0,"valor": false},
+                                { "desc": "Consegue", "peso": 1,"valor": false}
+                            ]
+                    }, 
+                {
+                    "descricao":"Braço direito (Posição: cotovelo direito estendido contra gravidade. Realizar aprox. 45 graus de flexão de ombro)",
+                    "alternativas": 
+                            [
+                                { "desc": "Não consegue", "peso": 0,"valor": false},
+                                { "desc": "Consegue", "peso": 1,"valor": false}
+                            ]
+                    },
+                {
+                    "descricao":"Braço esquerdo (Posição: cotovelo esquerdo estendido contra gravidade. Realizar aprox. 45 graus de flexão de ombro)",
+                    "alternativas": 
+                            [
+                                { "desc": "Não consegue", "peso": 0,"valor": false},
+                                { "desc": "Consegue", "peso": 1,"valor": false}
+                            ]
+                    }            
+            ]
+}, 
+{
+    "descricao": "Mobilidade no leito",
+    "questoes":[
+        {
+                    "descricao":"Supino para sentado",
+                    "alternativas": 
+                            [
+                                { "desc": "Não avaliado OU assistência total (< 25%)", "peso": 0,"valor": false},
+                                { "desc": "Máxima assistência (25 - 50%)", "peso": 1,"valor": false},
+                                { "desc": "Moderada assistência (50 - 75%)", "peso": 2,"valor": false},
+                                { "desc": "Mínima assistência (>75%) OU supervisão", "peso": 3,"valor": false}
+                            ]
+                     },
+                {
+                    "descricao":"Equilíbrio estático sentado à beira do leito uma vez estabelecida a posição",
+                    "alternativas": 
+                            [
+                                { "desc": "Não avaliado OU assistência total (< 25%)", "peso": 0,"valor": false},
+                                { "desc": "Máxima assistência (25 - 50%)", "peso": 1,"valor": false},
+                                { "desc": "Moderada assistência (50 - 75%)", "peso": 2,"valor": false},
+                                { "desc": "Mínima assistência (>75%) OU supervisão", "peso": 3,"valor": false}
+                            ]
+                }
+            ]
+},
+{
+    "descricao": "Transferências",
+    "questoes":[
+        {
+                    "descricao":"Sentado para posição em pé",
+                    "alternativas": 
+                            [
+                                { "desc": "Não avaliado OU assistência total (< 25%)", "peso": 0,"valor": false},
+                                { "desc": "Máxima assistência (25 - 50%)", "peso": 1,"valor": false},
+                                { "desc": "Moderada assistência (50 - 75%)", "peso": 2,"valor": false},
+                                { "desc": "Mínima assistência (>75%) OU supervisão", "peso": 3,"valor": false}
+                            ]
+                     },
+                {
+                    "descricao":"Equilíbrio estático uma vez estabelecida a posição em pé",
+                    "alternativas": 
+                            [
+                                { "desc": "Não avaliado OU assistência total (< 25%)", "peso": 0,"valor": false},
+                                { "desc": "Máxima assistência (25 - 50%)", "peso": 1,"valor": false},
+                                { "desc": "Moderada assistência (50 - 75%)", "peso": 2,"valor": false},
+                                { "desc": "Mínima assistência (>75%) OU supervisão", "peso": 3,"valor": false}
+                            ]
+                    }, 
+                {
+                    "descricao":"Transferência do leito para a cadeira OU da cadeira para o leito",
+                    "alternativas": 
+                            [
+                                { "desc": "Não avaliado OU assistência total (< 25%)", "peso": 0,"valor": false},
+                                { "desc": "Máxima assistência (25 - 50%)", "peso": 1,"valor": false},
+                                { "desc": "Moderada assistência (50 - 75%)", "peso": 2,"valor": false},
+                                { "desc": "Mínima assistência (>75%) OU supervisão", "peso": 3,"valor": false}
+                            ]
+                }
+            ]
+},
+{
+    "descricao": "Marcha",
+    "questoes":[
+        {
+                    "descricao":"",
+                    "alternativas": 
+                            [
+                                { "desc": "Não avaliado OU assistência total (< 25%)", "peso": 0,"valor": false},
+                                { "desc": "Máxima assistência (25 - 50%)", "peso": 1,"valor": false},
+                                { "desc": "Moderada assistência (50 - 75%)", "peso": 2,"valor": false},
+                                { "desc": "Mínima assistência (>75%) OU supervisão", "peso": 3,"valor": false}
+                            ]
+                     }
+                ]
+}, 
+{
+    "descricao": "Endurance",
+    "questoes":[
+        {
+                    "descricao":"Distância percorrida em 2 min, independentemente do nível de assistência exigido, incluindo períodos de descanso (em pé ou sentado), com ou sem uso de dispositivo de auxílio",
+                    "alternativas": 
+                            [
+                                { "desc": "Incapaz de deambular OU não avaliado", "peso": 0,"valor": false},
+                                { "desc": "Distância percorrida entre 1 e 15 metros", "peso": 1,"valor": false},
+                                { "desc": "Distância percorrida entre 15 e 30 metros", "peso": 2,"valor": false},
+                                { "desc": " Distância percorrida ≥ 30 metros", "peso": 3,"valor": false}
+                            ]
+                     }
+                ]
+} 
+
+
+
+],
+    "respostas":[
+        {
+
+            "R": 0, 
+            "Avaliação": 0,
+            "Fase_Perme": 0
+        }
+    ]
+}

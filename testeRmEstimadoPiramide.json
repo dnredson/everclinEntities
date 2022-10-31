@@ -1,9 +1,8 @@
-
 {
-    "id": "urn:Teste:Modelo:RmEstimado",
-    "info": "Estimar a carga máxima que um indivíduo pode suportar através de cargas submáximas. Sugestão de aplicação: avaliar e reavaliar após o 6º atendimento.",
+    "id": "urn:Teste:Modelo:RmEstimadoPiramide",
+    "info": "Estimar a carga máxima que um indivíduo pode suportar através de cargas submáximas.",
     "procedimento":"Para cada movimento, anotar a carga escolhida e o número de repetições realizadas pelo paciente.",
-    "sugestao": "O braço dominante deve ser suspenso no ar com a mão posicionada no dinamômetro sustentado pelo avaliador. Paciente sentado com a coluna ereta, mantendo o ombro posicionado em adução e rotação neutra, cotovelo flexionado a 90° em meio pronação e punho neutro podendo movimentá-lo até 30° de extensão. Realizar 5 medições com intervalos de 1 min.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
     "complemento": "",
     "secoesQuestionario":[
     {
@@ -13,8 +12,8 @@
                 "descricao":"Abdução de ombro direito",
                 "alternativas": 
                         [
-                         { "desc": "Carga", "peso": 0,"valor": 0},
-                         { "desc": "Repetições", "peso": 0,"valor": 0}
+                                { "desc": "Carga", "peso": 0,"valor": 0},
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
                          
                          
                         ]
@@ -32,7 +31,7 @@
                     "alternativas": 
                             [
                                 { "desc": "Carga", "peso": 0,"valor": 0},
-                         { "desc": "Repetições", "peso": 0,"valor": 0}
+                                { "desc": "Repetições", "peso": 0,"valor": 0}
                             ]
                 },
                 {

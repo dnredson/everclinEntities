@@ -1,0 +1,42 @@
+{
+    "id": "urn:Teste:Modelo:TVM",
+    "info": "Avaliar se há lentificação na marcha e correlacionar com comprometimento do estado de saúde e baixo desempenho físico.",
+    "procedimento":"Demarcar com fita 3 zonas no piso plano (1ª aceleração, 2ª teste e 3ª desaceleração). Medir o tempo para o paciente percorrer a 2ª zona. Repetir 2 vezes sem descanso.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Distância da 2ª zona",
+            "questoes":[
+                {
+                    "descricao":"Medida 1",
+                    "alternativas": 
+                            [
+                             { "desc": "4 metros", "peso": 0,"valor": false}, // algo errado
+                             { "desc": "6 segundos", "peso": 0,"valor": false}
+
+                             
+                            ]
+                    },
+                    {
+                        "descricao":"Medida 2",
+                        "alternativas": 
+                                [
+                                 { "desc": "4 metros", "peso": 0,"valor": false},
+                                 { "desc": "6 metros", "peso": 0,"valor": false}
+
+                                 
+                                ]
+                        }
+               
+            ]
+    }
+   
+    ],
+    "respostas":[
+        {
+       
+      
+        }
+    ]
+}

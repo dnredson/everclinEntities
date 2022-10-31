@@ -1,0 +1,29 @@
+{
+    "id": "urn:Teste:Modelo:SentarLevantar60",
+    "info": "",
+    "procedimento":"O paciente deve se levantar e se sentar o mais rapidamente possível durante 60 segundos. As mãos devem inicialmente repousar sobre os quadris e nenhum suporte deve ser usado.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "Número de repetições",
+            "questoes":[
+                {
+                "descricao":"",
+                "alternativas": 
+                        [
+                         { "desc": "Repetições", "peso": 0,"valor": 0}
+                        ]
+                }
+               
+            ]
+    }
+   
+    ],
+    "respostas":[
+        {
+       "R": 0
+      
+        }
+    ]
+}

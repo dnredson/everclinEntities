@@ -1,0 +1,143 @@
+{
+    "id": "urn:Teste:Modelo:indiceBarthel",
+    "info": "Avaliar as habilidades físicas necessárias para manter a independência funcional relativamente às últimas 48h.",
+    "procedimento":"Para cada atividade, escolher uma gradação.",
+    "sugestao": "Avaliar e reavaliar a cada 48h ou 2 vezes por semana.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "",
+            "questoes":[
+                {
+                    "descricao":"Higiene pessoal",
+                    "alternativas": 
+                            [
+                                { "desc": "É incapaz de realizar higiene pessoal sendo dependente em todos os aspectos.", "peso": 0,"valor": false},
+                                { "desc": "Necessita de assistência em todos os passos da higiene pessoal. ", "peso": 1,"valor": false},
+                                { "desc": "Necessita alguma assistência em um ou mais passos da higiene pessoal.", "peso": 3,"valor": false},
+                                { "desc": "É capaz de conduzir a própria higiene, mas requer mínima assistência antes e/ou depois da tarefa.", "peso": 4,"valor": false},
+                                { "desc": "Pode lavar as mãos e face, limpar os dentes e barbear, pentear ou maquiar-se.", "peso": 5,"valor": false}
+
+                            ]
+                    },
+                    {
+                        "descricao":"Banho",
+                        "alternativas": 
+                                [
+                                    { "desc": "Totalmente dependente para banhar-se.", "peso": 0,"valor": false},
+                                    { "desc": "Requer assistência em todos os aspectos do banho.", "peso": 1,"valor": false},
+                                    { "desc": "Requer assistência para transferir-se, lavar-se e/ou secar-se; incluindo a inabilidade em completar a tarefa pela condição ou doença", "peso": 3,"valor": false},
+                                    { "desc": "Requer supervisão por segurança no ajuste da temperatura da água ou na transferência.", "peso": 4,"valor": false},
+                                    { "desc": "É capaz de realizar todas as etapas do banho, mesmo que necessite de equipamentos, mas não necessita de alguém presente.", "peso": 5,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Alimentação",
+                        "alternativas": 
+                                [
+                                    { "desc": "Dependente em todos os aspectos e necessita ser alimentado.", "peso": 0,"valor": false},
+                                    { "desc": "Pode manipular os utensílios para comer, porém necessita de assistência constante durante a refeição.", "peso": 2,"valor": false},
+                                    { "desc": "Capaz de comer com supervisão.", "peso": 5,"valor": false},
+                                    { "desc": "É independente para se alimentar, não requer a presença de outra pessoa.", "peso": 8,"valor": false},
+                                    { "desc": "Pode se alimentar sozinho.", "peso": 10,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Toalete",
+                        "alternativas": 
+                                [
+                                    { "desc": "Totalmente dependente no uso vaso sanitário.", "peso": 0,"valor": false},
+                                    { "desc": "Necessita de assistência no uso do vaso sanitário.", "peso": 2,"valor": false},
+                                    { "desc": "Pode necessitar de assistência para se despir ou vestir, para transferir-se para o vaso sanitário ou para lavar as mãos.", "peso": 5,"valor": false},
+                                    { "desc": "Por razões de segurança, pode necessitar de supervisão no uso do sanitário. Necessita assistência para limpeza e esvaziamento de dispositivos (penico ou comadre).", "peso": 8,"valor": false},
+                                    { "desc": "É capaz de se dirigir e sair do sanitário, vestir-se ou despir-se sem ajuda. Se utilizar uma comadre ou penico, deve ser capaz de os esvaziar e limpar. ", "peso": 10,"valor": false}
+                                ]
+                        },                               
+                    {
+                        "descricao":"Subir escadas",
+                        "alternativas": 
+                                [
+                                    { "desc": "É incapaz de subir escadas.", "peso": 0,"valor": false},
+                                    { "desc": "Requer assistência em todos os aspectos relacionados a subir escadas, incluindo assistência com os dispositivos auxiliares", "peso": 2,"valor": false},
+                                    { "desc": "É capaz de subir e descer, necessitando de supervisão e assistência.", "peso": 5,"valor": false},
+                                    { "desc": "Geralmente, não necessita de assistência. Em alguns momentos, requer supervisão por segurança.", "peso": 8,"valor": false},
+                                    { "desc": "É capaz de subir e descer, com segurança, sem supervisão ou assistência mesmo quando utiliza os dispositivos. ", "peso": 10,"valor": false}
+                                ]
+                        },     
+                    {
+                        "descricao":"Vestuário",
+                        "alternativas": 
+                                [
+                                    { "desc": "Dependente em todos os aspectos do vestir e incapaz de participar das atividades.", "peso": 0,"valor": false},
+                                    { "desc": "É capaz de ter algum grau de participação, mas é dependente em todos os aspectos relacionados ao vestuário.", "peso": 2,"valor": false},
+                                    { "desc": "Necessita assistência para se vestir ou se despir.", "peso": 5,"valor": false}, 
+                                    { "desc": "Necessita assistência mínima para abotoar, prender o soutien, fechar o zíper, amarrar sapatos, etc.", "peso": 8,"valor": false},
+                                    { "desc": "É capaz de vestir-se, despir-se, amarrar os sapatos, abotoar e colocar um colete ou órtese.", "peso": 10,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Controle da bexiga",
+                        "alternativas": 
+                                [
+                                    { "desc": "Apresenta incontinência urinária.", "peso": 0,"valor": false},
+                                    { "desc": "Necessita de auxílio para assumir a posição apropriada e para fazer as manobras de esvaziamento.", "peso": 2,"valor": false},
+                                    { "desc": "Pode assumir a posição apropriada, mas não consegue realizar esvaziar ou limpar-se sem assistência. Requer assistência com as fraldas e outros cuidados. (", "peso": 5,"valor": false}, 
+                                    { "desc": "Pode necessitar de supervisão com o uso do supositório e tem acidentes ocasionais.", "peso": 8,"valor": false},
+                                    { "desc": " Tem controle urinário, sem acidentes. Pode usar supositório quando necessário.", "peso": 10,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Controle do intestino",
+                        "alternativas": 
+                                [
+                                    { "desc": "Não tem controle de esfíncteres ou utiliza o cateterismo.", "peso": 0,"valor": false},
+                                    { "desc": "Tem incontinência, mas é capaz de assistir na aplicação de auxílios externos ou internos.", "peso": 2,"valor": false},
+                                    { "desc": "Fica geralmente seco ao dia, porém não à noite e necessita dos equipamentos para o esvaziamento.", "peso": 5,"valor": false}, 
+                                    { "desc": "Geralmente fica seco durante o dia e a noite, porém tem acidentes ocasionais ou necessita de assistência com os equipamentos de esvaziamento.", "peso": 8,"valor": false},
+                                    { "desc": "Tem controle de esfíncteres durante o dia e a noite e/ou é independente para realizar o esvaziamento.", "peso": 10,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Deambulação", //olhar: cadeirante=NO
+                        "alternativas": 
+                                [
+                                    { "desc": "Totalmente dependente para deambular.", "peso": 0,"valor": false},
+                                    { "desc": "Necessita da presença constante de uma ou mais pessoas durante a deambulação.", "peso": 3,"valor": false},
+                                    { "desc": "Requer assistência de uma pessoa para alcançar ou manipular os dispositivos auxiliares.", "peso": 8,"valor": false}, 
+                                    { "desc": "É independente para deambular, porém necessita de auxilio para andar 50 metros ou supervisão em  situações perigosas.", "peso": 12,"valor": false},
+                                    { "desc": "É capaz de usar todos os tipos de dispositivos e andar 50 metros sem auxilio ou supervisão.", "peso": 15,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Cadeira de rodas", //olhar: cadeirante=YES
+                        "alternativas": 
+                                [
+                                    { "desc": "Dependente para conduzir a cadeira de rodas.", "peso": 0,"valor": false},
+                                    { "desc": "Consegue conduzi-la em pequenas distâncias ou em superfícies lisas, porém necessita de auxílio em todos os aspectos.", "peso": 1,"valor": false},
+                                    { "desc": "Necessita da presença constante de uma pessoa e requer assistência para manipular a cadeira e transferir-se.", "peso": 3,"valor": false}, 
+                                    { "desc": "Consegue conduzir a cadeira por um tempo razoável e em solos regulares. Requer mínima assistência em espaços apertados. ", "peso": 4,"valor": false},
+                                    { "desc": "É independente em todas as etapas relacionadas à cadeira de rodas (manipulação de equipamentos, condução por longos percursos e transferências).", "peso": 5,"valor": false}
+                                ]
+                        }, 
+                    {
+                        "descricao":"Transferência cadeira/cama",
+                        "alternativas": 
+                                [
+                                    { "desc": "Incapaz de participar da transferência. São necessárias duas pessoas para transferir o paciente com ou sem auxílio mecânico. .", "peso": 0,"valor": false},
+                                    { "desc": "Capaz de participar, porém necessita de máxima assistência de outra pessoa em todos os aspectos da transferência. (", "peso": 3,"valor": false},
+                                    { "desc": "Requer assistência de oura pessoa para transferir-se.", "peso": 8,"valor": false}, 
+                                    { "desc": "Requer a presença de outra pessoa, supervisionando, como medida de segurança.", "peso": 12,"valor": false},
+                                    { "desc": "É independente em todas as fases da transferência.", "peso": 15,"valor": false}
+                                ]
+                        }  
+            ]
+}
+
+],
+"respostas":[
+    {
+        "R": 0
+  
+    }
+]
+}

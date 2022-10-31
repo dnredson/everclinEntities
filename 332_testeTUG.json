@@ -1,0 +1,49 @@
+{
+    "id": "urn:Teste:Modelo:TUG",
+    "info": "Avaliar déficit de mobilidade, equilíbrio e risco de queda.",
+    "procedimento":"Medir o tempo para o indivíduo levantar de uma cadeira, caminhar 3 metros o mais rapidamente possível e com segurança, virar, voltar à cadeira e sentar novamente. Realizar 3 medições.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "",
+    "secoesQuestionario":[
+    {
+            "descricao": "",
+            "questoes":[
+                {
+                    "descricao":"Medida 1",
+                    "alternativas": 
+                            [
+                             { "desc": "Tempo", "peso": 0,"valor": 0}
+
+                             
+                            ]
+                    },
+                    {
+                        "descricao":"Medida 2",
+                        "alternativas": 
+                                [
+                                 { "desc": "Tempo", "peso": 0,"valor": 0}
+    
+                                 
+                                ]
+                        },
+                        {
+                            "descricao":"Medida 3",
+                            "alternativas": 
+                                    [
+                                     { "desc": "Tempo", "peso": 0,"valor": 0}
+        
+                                     
+                                    ]
+                            }
+               
+            ]
+    }
+   
+    ],
+    "respostas":[
+        {
+       
+      
+        }
+    ]
+}

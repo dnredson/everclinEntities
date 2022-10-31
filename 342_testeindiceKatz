@@ -1,0 +1,75 @@
+{
+    "id": "urn:Teste:Modelo:indiceKatz",
+    "info": "Medir o grau de dependência para realizar AVD de autocuidado e locomoção.",
+    "procedimento":"Para cada atividade, escolher uma gradação.",
+    "sugestao": "Avaliar e reavaliar após o 6º atendimento.",
+    "complemento": "Ajuda significa: supervisão, orientação ou auxílio pessoal.",
+    "secoesQuestionario":[
+    {
+            "descricao": "",
+            "questoes":[
+                {
+                    "descricao":"Tomar banho (leito, banheira ou chuveiro)",
+                    "alternativas": 
+                            [
+                                { "desc": "não recebe ajuda", "peso": 0,"valor": false},
+                                { "desc": "recebe ajuda para lavar apenas uma parte do corpo (como as costas ou uma perna)", "peso": 0,"valor": false},
+                                { "desc": "recebe ajuda para lavar mais de uma parte do corpo, ou não toma banho sozinho", "peso": 1,"valor": false}
+                            ]
+                    },
+                    {
+                        "descricao":"Vestir-se (pega roupas, inclusive peças íntimas, nos armários e gavetas, e manuseia fechos, inclusive os de  órteses e próteses, quando utilizadas)",
+                        "alternativas": 
+                                [
+                                    { "desc": "pega as roupas e veste-se completamente, sem ajuda", "peso": 0,"valor": false},
+                                    { "desc": "pega as roupas e veste-se sem ajuda, exceto para amarrar os sapatos", "peso": 0,"valor": false},
+                                    { "desc": "recebe ajuda para pegar as roupas ou vestir-se, ou permanece parcial ou completamente sem roupa", "peso": 1,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Uso do vaso sanitário (ida ao banheiro ou local equivalente para evacuar e urinar; higiene íntima e arrumação das roupas)",
+                        "alternativas": 
+                                [
+                                    { "desc": "vai ao banheiro, limpa-se e ajeita as roupas sem ajuda", "peso": 0,"valor": false},
+                                    { "desc": "recebe ajuda para ir ao banheiro, ou para limpar-se, ou para ajeitar as roupas após evacuação ou micção, ou para usar a comadre ou urinol à noite", "peso": 1,"valor": false},
+                                    { "desc": "não vai ao banheiro para eliminações fisiológicas", "peso": 1,"valor": false}
+                                ]
+                        },
+                    {
+                        "descricao":"Transferência",
+                        "alternativas": 
+                                [
+                                    { "desc": "deita-se e sai da cama, senta-se e levanta-se da cadeira sem ajuda (pode usar objeto para apoio, como bengala ou andador)", "peso": 0,"valor": false},
+                                    { "desc": "deita-se e sai da cama e/ou senta-se e levanta-se da cadeira com ajuda", "peso": 1,"valor": false},
+                                    { "desc": "não sai da cama", "peso": 1,"valor": false}
+                                ]
+                        },                               
+                    {
+                        "descricao":"Continência",
+                        "alternativas": 
+                                [
+                                    { "desc": "controla inteiramente a micção e a evacuação", "peso": 0,"valor": false},
+                                    { "desc": "tem acidentes ocasionais", "peso": 1,"valor": false},
+                                    { "desc": "necessita ajuda para manter o controle da micção e evacuação; usa cateter ou é incontinente", "peso": 1,"valor": false}
+                                ]
+                        },     
+                    {
+                        "descricao":"Alimentação",
+                        "alternativas": 
+                                [
+                                    { "desc": "alimenta-se sem ajuda", "peso": 0,"valor": false},
+                                    { "desc": "alimenta-se sozinho, mas recebe ajuda para cortar carne ou passar manteiga no pão", "peso": 0,"valor": false},
+                                    { "desc": "recebe ajuda para alimentar-se, ou é alimentado parcialmente ou completamente por sonda nasoenteral, gastroenteral ou fluidos intravenosos", "peso": 1,"valor": false}
+                                ]
+                        }
+            ]
+}
+
+],
+"respostas":[
+    {
+        "R": 0
+  
+    }
+]
+}
