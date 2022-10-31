@@ -20,7 +20,7 @@
                         [
                          { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                          { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
-                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": true},
                          { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                          { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                          { "desc": "força nor", "peso": 5,"valor": false}
@@ -32,7 +32,7 @@
                             [
                              { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                              { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
-                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                             { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": true},
                              { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                              { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                              { "desc": "força nor", "peso": 5,"valor": false}
@@ -45,7 +45,7 @@
                              { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                              { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
                              { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
-                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": true},
                              { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                              { "desc": "força nor", "peso": 5,"valor": false}
                             ]
@@ -55,7 +55,7 @@
                     "alternativas": 
                             [
                              { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
-                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": true},
                              { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
                              { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                              { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
@@ -69,7 +69,7 @@
                              { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                              { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
                              { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
-                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                             { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": true},
                              { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                              { "desc": "força nor", "peso": 5,"valor": false}
                             ]
@@ -79,7 +79,7 @@
                     "alternativas": 
                             [
                              { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
-                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                             { "desc": "contração visível sem movimentoe", "peso": 1,"valor": true},
                              { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
                              { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                              { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
@@ -96,7 +96,7 @@
             "alternativas": 
                     [
                      { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
-                     { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                     { "desc": "contração visível sem movimentoe", "peso": 1,"valor": true},
                      { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
                      { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                      { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
@@ -110,7 +110,7 @@
                          { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                          { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
                          { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
-                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": true},
                          { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                          { "desc": "força nor", "peso": 5,"valor": false}
                         ]
@@ -121,7 +121,7 @@
                         [
                          { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                          { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
-                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": true},
                          { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                          { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                          { "desc": "força nor", "peso": 5,"valor": false}
@@ -134,7 +134,7 @@
                          { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                          { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
                          { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
-                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
+                         { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": true},
                          { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                          { "desc": "força nor", "peso": 5,"valor": false}
                         ]
@@ -145,7 +145,7 @@
                         [
                          { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
                          { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
-                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
+                         { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": true},
                          { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                          { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
                          { "desc": "força nor", "peso": 5,"valor": false}
@@ -156,7 +156,7 @@
                 "alternativas": 
                         [
                          { "desc": "nenhuma contração visível, paralisia total", "peso": 0,"valor": false},
-                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": false},
+                         { "desc": "contração visível sem movimentoe", "peso": 1,"valor": true},
                          { "desc": "sem movimento contra a gravidade", "peso": 2,"valor": false},
                          { "desc": "contração fraca contra a gravidade", "peso": 3,"valor": false},
                          { "desc": "movimento ativo contra a resistência", "peso": 4,"valor": false},
